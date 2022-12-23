@@ -1,0 +1,9 @@
+:root {
+  font-family: Vazirmatn, sans-serif;
+}
+
+/*clear the default margin and padding to make web app full screen*/
+* {
+  margin: 0;
+  padding: 0;
+}

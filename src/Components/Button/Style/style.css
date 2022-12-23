@@ -1,0 +1,32 @@
+.button-container {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.perchase-button {
+  width: 80%;
+  display: flex;
+  background-color: greenyellow;
+  color: #212121;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: inherit;
+}
+
+.button-container > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
