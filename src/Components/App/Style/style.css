@@ -2,5 +2,12 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: aqua;
+  background-color: var(--light-background);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.no-items {
+  align-items: center;
 }

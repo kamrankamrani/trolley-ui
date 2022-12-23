@@ -1,7 +1,10 @@
+import MyBoddy from "../MyBoddy/MyBoddy";
+import "./Style/style.css";
+
 export default function Items() {
   return (
     <div>
-      <p>this is items</p>
+      <MyBoddy />
     </div>
   );
 }

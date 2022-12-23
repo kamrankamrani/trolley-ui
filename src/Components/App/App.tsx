@@ -5,7 +5,7 @@ import "./Style/style.css";
 
 export default function App() {
   return (
-    <div className="app-main-container">
+    <div className="app-main-container no-items">
       <Items />
       <Button />
     </div>

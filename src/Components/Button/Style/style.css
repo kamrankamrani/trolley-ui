@@ -6,14 +6,16 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #e6ede4;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .perchase-button {
   width: 80%;
   display: flex;
-  background-color: greenyellow;
-  color: #212121;
+  background-color: var(--primart-color);
+  color: var(--light-text);
   padding: 10px;
   box-sizing: border-box;
   justify-content: center;
@@ -29,4 +31,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--dark-text);
 }

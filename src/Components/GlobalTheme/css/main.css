@@ -1,5 +1,9 @@
 :root {
   font-family: Vazirmatn, sans-serif;
+  --light-background: #e1e1f0;
+  --primart-color: #065f2b;
+  --light-text: #f1f1f1;
+  --dark-text: #212121;
 }
 
 /*clear the default margin and padding to make web app full screen*/
