@@ -1,0 +1,13 @@
+.no-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: max-content; */
+}
+
+.no-item-container p {
+  text-align: right;
+  direction: rtl;
+  color: var(--dark-text);
+  font-size: 1.1em;
+}

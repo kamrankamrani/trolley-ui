@@ -11,3 +11,8 @@
 .no-items {
   align-items: center;
 }
+
+.items-available {
+  align-items: flex-start;
+  overflow-y: scroll;
+}

@@ -1,10 +1,11 @@
-import MyBoddy from "../MyBoddy/MyBoddy";
+import { useAppSelector } from "../../hooks";
+import NoItems from "../NoItems/NoItems";
+import ShopList from "../ShopList/ShopList";
 import "./Style/style.css";
 
 export default function Items() {
-  return (
-    <div>
-      <MyBoddy />
-    </div>
+  const isItems = useAppSelector(
+    (state) => state.shoppingListSlice.items.length
   );
+  return isItems ? <ShopList /> : <NoItems />;
 }
