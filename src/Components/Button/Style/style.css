@@ -14,7 +14,7 @@
 .perchase-button {
   width: 80%;
   display: flex;
-  background-color: var(--primart-color);
+  background-color: var(--primary-color);
   color: var(--light-text);
   padding: 10px;
   box-sizing: border-box;

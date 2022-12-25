@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import Items from "../Items/Items";
 import "../../../node_modules/vazirmatn/Vazirmatn-font-face.css";
 import { useAppSelector } from "../../hooks";
+import SideMenu from "../SideMenu/SideMenu";
 import "./Style/style.css";
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         isItems ? "items-available" : "no-items"
       }`}
     >
+      <SideMenu />
       <Items />
       <Button />
     </div>
