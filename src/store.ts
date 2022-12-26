@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import shoppingListSlice from "./Features/shoppingListSlice";
+import webSocketSlice from "./Features/webSocketSlice";
 
 export const store = configureStore({
   reducer: {
     shoppingListSlice,
+    webSocketSlice,
   },
 });
 

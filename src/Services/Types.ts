@@ -10,3 +10,8 @@ export interface shoppingListDataType {
 export interface shoppingListItems {
   items: shoppingListDataType[];
 }
+
+export interface webSocketSliceType {
+  webSocketUrl: string;
+  connectionStatus: number;
+}
