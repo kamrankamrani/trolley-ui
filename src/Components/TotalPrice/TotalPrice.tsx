@@ -17,6 +17,8 @@ export default function TotalPrice() {
         total += Number(value.price);
       });
       setTotalPrice(total);
+    } else {
+      setTotalPrice(0);
     }
   }, [isItems]);
 

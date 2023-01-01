@@ -7,38 +7,38 @@ import Img from "../assets/pics/lemon.jpg";
 
 const initialState: shoppingListItems = {
   items: [
-    {
-      id: 0,
-      name: "لیمو سنگی",
-      count: 2,
-      price: "2000",
-      unitPrice: "1000",
-      url: Img,
-    },
-    {
-      id: 1,
-      name: "لیمو سنگی",
-      count: 2,
-      price: "2000",
-      unitPrice: "1000",
-      url: Img,
-    },
-    {
-      id: 2,
-      name: "لیمو سنگی",
-      count: 2,
-      price: "2000",
-      unitPrice: "1000",
-      url: Img,
-    },
-    {
-      id: 3,
-      name: "لیمو سنگی",
-      count: 2,
-      price: "2000",
-      unitPrice: "1000",
-      url: Img,
-    },
+    // {
+    //   id: 0,
+    //   name: "لیمو سنگی",
+    //   count: 2,
+    //   price: "2000",
+    //   unitPrice: "1000",
+    //   url: Img,
+    // },
+    // {
+    //   id: 1,
+    //   name: "لیمو سنگی",
+    //   count: 2,
+    //   price: "2000",
+    //   unitPrice: "1000",
+    //   url: Img,
+    // },
+    // {
+    //   id: 2,
+    //   name: "لیمو سنگی",
+    //   count: 2,
+    //   price: "2000",
+    //   unitPrice: "1000",
+    //   url: Img,
+    // },
+    // {
+    //   id: 3,
+    //   name: "لیمو سنگی",
+    //   count: 2,
+    //   price: "2000",
+    //   unitPrice: "1000",
+    //   url: Img,
+    // },
   ],
 };
 

@@ -5,6 +5,7 @@ export interface shoppingListDataType {
   unitPrice: string;
   count: number;
   url: string;
+  message: string;
 }
 
 export interface shoppingListItems {
@@ -14,4 +15,8 @@ export interface shoppingListItems {
 export interface webSocketSliceType {
   webSocketUrl: string;
   connectionStatus: number;
+}
+
+export interface webScoketMessageType {
+  message: string;
 }
